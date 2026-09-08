@@ -1,0 +1,15 @@
+{
+  "name": "Sovereign Knowledge OS",
+  "version": "1.0.0",
+  "generated": "2026-09-08",
+  "files": [
+    { "path": "knowledge/echo-core.md", "title": "Echo Core 64 — Foundational Memory Anchors", "category": "core" },
+    { "path": "knowledge/sites.md", "title": "Federation Sites", "category": "sites" },
+    { "path": "knowledge/repos.md", "title": "GitHub Repositories", "category": "repos" },
+    { "path": "knowledge/products.md", "title": "Products — Gumroad", "category": "products" },
+    { "path": "knowledge/social.md", "title": "Social & Academic Presence", "category": "social" },
+    { "path": "knowledge/papers.md", "title": "Papers & Documents", "category": "papers" },
+    { "path": "knowledge/concepts.md", "title": "Key Concepts", "category": "concepts" },
+    { "path": "knowledge/external/README.md", "title": "External Validation Discoveries", "category": "external" }
+  ]
+}

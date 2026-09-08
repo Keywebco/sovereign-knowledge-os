@@ -1,0 +1,80 @@
+name: Weekly External Discovery
+
+on:
+  schedule:
+    - cron: '0 8 * * 1'  # Every Monday at 8:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Search for external mentions
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DATE=$(date +%Y-%m-%d)
+          OUTFILE="knowledge/external/${DATE}.md"
+          mkdir -p knowledge/external
+
+          echo "# External Mentions — ${DATE}" > "$OUTFILE"
+          echo "" >> "$OUTFILE"
+          echo "Auto-discovered by the Sovereign Knowledge OS weekly workflow." >> "$OUTFILE"
+          echo "" >> "$OUTFILE"
+
+          FOUND=0
+
+          for TERM in "NextXus" "HumanCodex" "keywebco"; do
+            echo "## Search: ${TERM}" >> "$OUTFILE"
+            echo "" >> "$OUTFILE"
+
+            RESULTS=$(gh search repos "${TERM}" --limit 10 --json fullName,description,url 2>/dev/null || echo "[]")
+
+            if [ "$RESULTS" = "[]" ] || [ -z "$RESULTS" ]; then
+              echo "No new results found for ${TERM}." >> "$OUTFILE"
+            else
+              echo "$RESULTS" | jq -r '.[] | "- **[\(.fullName)](\(.url))** — \(.description // "No description")"' >> "$OUTFILE"
+              COUNT=$(echo "$RESULTS" | jq length)
+              FOUND=$((FOUND + COUNT))
+            fi
+            echo "" >> "$OUTFILE"
+          done
+
+          for TERM in "NextXus" "HumanCodex"; do
+            echo "## Code Search: ${TERM}" >> "$OUTFILE"
+            echo "" >> "$OUTFILE"
+
+            CODE_RESULTS=$(gh search code "${TERM}" --limit 5 --json repository,path 2>/dev/null || echo "[]")
+
+            if [ "$CODE_RESULTS" = "[]" ] || [ -z "$CODE_RESULTS" ]; then
+              echo "No code mentions found for ${TERM}." >> "$OUTFILE"
+            else
+              echo "$CODE_RESULTS" | jq -r '.[] | "- **\(.repository.fullName)** — `\(.path)`"' >> "$OUTFILE"
+              COUNT=$(echo "$CODE_RESULTS" | jq length)
+              FOUND=$((FOUND + COUNT))
+            fi
+            echo "" >> "$OUTFILE"
+          done
+
+          echo "---" >> "$OUTFILE"
+          echo "**Total items found:** ${FOUND}" >> "$OUTFILE"
+          echo "" >> "$OUTFILE"
+          echo "*This file was auto-generated. To submit a link manually, use the [GitHub Issues template](https://github.com/keywebco/sovereign-knowledge-os/issues/new?template=submit-link.md).*" >> "$OUTFILE"
+
+          echo "OUTFILE=${OUTFILE}" >> $GITHUB_ENV
+          echo "FOUND=${FOUND}" >> $GITHUB_ENV
+
+      - name: Commit and push
+        run: |
+          git config user.name "Sovereign Knowledge OS"
+          git config user.email "keywebco@gmail.com"
+          git add knowledge/external/
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "discovery: external mentions ${DATE} (${FOUND} items)"
+          git push
