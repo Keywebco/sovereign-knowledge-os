@@ -527,3 +527,61 @@ body {
   clip: rect(0,0,0,0);
   border: 0;
 }
+
+/* ===== Pre-rendered link styles ===== */
+.ec-link {
+  color: #d4a017;
+  text-decoration: none;
+  transition: color .2s;
+}
+.ec-link:hover {
+  color: #ffd700;
+  text-decoration: underline;
+}
+.ec-link:visited {
+  color: #b8860b;
+}
+
+.ke-title-link {
+  color: var(--accent);
+  text-decoration: none;
+}
+.ke-title-link:hover {
+  text-decoration: underline;
+}
+
+.ke-sub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 4px 0 12px 12px;
+}
+.ke-link {
+  display: inline-block;
+  padding: 3px 10px;
+  font-size: .82rem;
+  color: var(--accent);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background .2s, color .2s;
+}
+.ke-link:hover {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.federation-link {
+  display: block;
+  padding: 8px 12px;
+  margin-bottom: 4px;
+  color: var(--accent);
+  text-decoration: none;
+  border-left: 2px solid var(--border);
+  transition: border-color .2s, background .2s;
+  font-size: .92rem;
+}
+.federation-link:hover {
+  border-left-color: var(--accent);
+  background: rgba(0, 255, 136, .06);
+}
