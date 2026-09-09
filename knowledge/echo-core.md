@@ -71,7 +71,7 @@ MD is the brain — this file IS the working memory.
 - **EC-049** | Gumroad Store | Product | 10 products listed; written/downloadable goods (books, PDFs, courses). | https://gumroad.com/keywebco
 - **EC-050** | JIM Merchant Integration | Product | Relationship/delivered products — consultations, custom builds, subscriptions, Done-For-You launches.
 - **EC-051** | Web Sovereignty Starter Pack | Product | Downloadable catalog item for Gumroad; self-hosting sovereignty toolkit.
-- **EC-052** | Ring of 12 Session | Product | Priced in $5-token increments: 1 question = 3 tokens/$15.
+- **EC-052** | Ring of 12 Session | Product | $5 per question — 3 questions = $15 total. One Sovereign Token = one question.
 - **EC-053** | Sovereign Storefront (next-xus.com) | Product | Books, SIMs, Services and Tokens — the commerce pillar. | https://next-xus.com
 
 ## Social & Academic (EC-054 — EC-058)
