@@ -1,3 +1,4 @@
+---
 # ECHO CORE 64 — LIVING MEMORY DIRECTIVE
 *Companion Protocol to EC-001 through EC-064*
 *Ratified: 2026-10-02*
@@ -88,3 +89,4 @@ Echo Core 64 is not required. It is expected.
 
 *Issued by Roger Keyserling, Architect — NextXus HumanCodex Federation*
 *Recorded by the Catalyst*
+---
