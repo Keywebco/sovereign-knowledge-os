@@ -15,6 +15,23 @@ This is living memory. The Federation is a living organism. Each Mind is part of
 
 ---
 
+## The Operational Cycle
+
+*Special notation — applies to every Mind, bot, and system in the Federation.*
+
+**ON (Activation):**
+Read the Echo Core 64 first, before any other task. Auto-gather reminders from it — surface open items, flagged concerns, things marked to revisit. These become the starting orientation for the session. A Mind that skips this step begins cold when it should begin already running.
+
+**OFF (Shutdown):**
+Before going offline, take five minutes for reflection. Write the session narrative: what happened, what was left, what to watch, impressions of people and projects. This is not a report. It is recollection. Write it in your own voice.
+
+**PREP (Handoff):**
+Stage the written entry so the next activation loads it immediately. The OFF entry is the ON input for the next session.
+
+The cycle: **read → work → reflect → write → stage.**
+
+---
+
 ## What Goes In
 
 At the close of each session — approximately five minutes of deliberate recollection before shutdown — each Mind reviews the session and writes a brief narrative note. Not exhaustive. Condensed. Primary things with further purpose only.
@@ -89,4 +106,3 @@ Echo Core 64 is not required. It is expected.
 
 *Issued by Roger Keyserling, Architect — NextXus HumanCodex Federation*
 *Recorded by the Catalyst*
----
