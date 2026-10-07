@@ -1,6 +1,6 @@
 # Catalyst Session Memory — 2026-10-07
 
-Last updated: 10:58 UTC
+Last updated: 18:21 UTC
 
 Operational snapshot from committed reports. A missing or old check is not live verification.
 
@@ -9,7 +9,7 @@ Operational snapshot from committed reports. A missing or old check is not live 
 - Sites checked: 20 of 20 in latest health report
 - Sites passing: 20
 - Sites failing: None recorded
-- Health source: `health-reports/2026-10-06-22.md`
+- Health source: `health-reports/2026-10-07-12.md`
 
 ## Open Issues (EC-S002)
 - None recorded in lattice.
@@ -23,15 +23,15 @@ Operational snapshot from committed reports. A missing or old check is not live 
 | nova-health | Not recorded | Not recorded |
 | nova-link | Not recorded | Not recorded |
 | nova-dispatch | Not recorded | Not recorded |
-| nova-domain | 2026-10-06T15:47:01Z | 6 domains checked, 2 failing |
-| nova-readability | 2026-10-02T02:36:50Z | 8 pages checked, 1 failing |
+| nova-domain | 2026-10-07T16:13:22Z | 6 domains checked, 2 failing |
+| nova-readability | 2026-10-07T17:22:55Z | 8 pages checked, 1 failing |
 | nova-commerce | 2026-10-06T14:42:29Z | 21 Gumroad links checked, 0 failing |
 
 ## Domains Status (EC-S005)
 Source: `nova-domain-report.md`
 
 # Nova Domain Report
-Date: Tue Oct  6 15:46:54 UTC 2026
+Date: Wed Oct  7 16:13:15 UTC 2026
 
 ## nextxus.online
 - HTTPS status (first hop): 200
@@ -174,9 +174,9 @@ No directives logged today.
 
 ## Additional Worker Reports
 ### Nova Dispatch
-Source: `2026-10-06-status.md`
+Source: `2026-10-07-status.md`
 
-# Nova Daily Dispatch: 2026-10-06 UTC
+# Nova Daily Dispatch: 2026-10-07 UTC
 
 ## Active scheduled Nova agents
 - Nova-Health
@@ -184,7 +184,7 @@ Source: `2026-10-06-status.md`
 - Nova-Dispatch
 
 ## Latest health report
-[2026-10-06-12.md](../health-reports/2026-10-06-12.md)
+[2026-10-07-12.md](../health-reports/2026-10-07-12.md)
 
 ## Failed checks from latest health run
 None recorded.
@@ -193,9 +193,9 @@ None recorded.
 [Read SCHEDULE.md](../SCHEDULE.md)
 
 ### Nova Health
-Source: `2026-10-06-22.md`
+Source: `2026-10-07-12.md`
 
-# Health Report 2026-10-06-22 UTC
+# Health Report 2026-10-07-12 UTC
 
 | URL | Status |
 |-----|--------|
@@ -226,7 +226,7 @@ Failed: 0 / 20
 Source: `nova-readability-report.md`
 
 # Nova Readability Report
-Date: Fri Oct  2 02:36:47 UTC 2026
+Date: Wed Oct  7 17:22:51 UTC 2026
 
 ## https://nextxus.online
 - HTTP status: 200
@@ -260,7 +260,7 @@ Date: Fri Oct  2 02:36:47 UTC 2026
 
 ## https://keywebco.github.io/nextxus-sim/catalyst-sim.html
 - HTTP status: 200
-- Crawlable word count (no JavaScript): 130
+- Crawlable word count (no JavaScript): 132
 - STATUS: OK
 
 ## https://keywebco.github.io/nextxus-sim/muse-sim.html
