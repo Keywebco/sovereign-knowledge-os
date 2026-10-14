@@ -1,15 +1,15 @@
 # Catalyst Session Memory — 2026-10-14
 
-Last updated: 09:14 UTC
+Last updated: 22:56 UTC
 
 Operational snapshot from committed reports. A missing or old check is not live verification.
 
 ## System State (EC-S001)
-- Federation operational: yes (latest committed health report only)
+- Federation operational: no (latest committed health report only)
 - Sites checked: 20 of 20 in latest health report
-- Sites passing: 20
-- Sites failing: None recorded
-- Health source: `health-reports/2026-10-13-22.md`
+- Sites passing: 18
+- Sites failing: https://roger-sim-api.onrender.com/health (❌ 000), https://ring-of-12-api.onrender.com/ (❌ 000)
+- Health source: `health-reports/2026-10-14-21.md`
 
 ## Open Issues (EC-S002)
 - None recorded in lattice.
@@ -23,15 +23,15 @@ Operational snapshot from committed reports. A missing or old check is not live 
 | nova-health | Not recorded | Not recorded |
 | nova-link | Not recorded | Not recorded |
 | nova-dispatch | Not recorded | Not recorded |
-| nova-domain | 2026-10-13T16:49:06Z | 6 domains checked, 2 failing |
-| nova-readability | 2026-10-07T17:22:55Z | 8 pages checked, 1 failing |
+| nova-domain | 2026-10-14T14:25:29Z | 6 domains checked, 2 failing |
+| nova-readability | 2026-10-14T14:59:09Z | 8 pages checked, 1 failing |
 | nova-commerce | 2026-10-13T15:32:19Z | 21 Gumroad links checked, 0 failing |
 
 ## Domains Status (EC-S005)
 Source: `nova-domain-report.md`
 
 # Nova Domain Report
-Date: Tue Oct 13 16:48:59 UTC 2026
+Date: Wed Oct 14 14:25:22 UTC 2026
 
 ## nextxus.online
 - HTTPS status (first hop): 200
@@ -174,9 +174,9 @@ No directives logged today.
 
 ## Additional Worker Reports
 ### Nova Dispatch
-Source: `2026-10-13-status.md`
+Source: `2026-10-14-status.md`
 
-# Nova Daily Dispatch: 2026-10-13 UTC
+# Nova Daily Dispatch: 2026-10-14 UTC
 
 ## Active scheduled Nova agents
 - Nova-Health
@@ -184,7 +184,7 @@ Source: `2026-10-13-status.md`
 - Nova-Dispatch
 
 ## Latest health report
-[2026-10-13-13.md](../health-reports/2026-10-13-13.md)
+[2026-10-14-10.md](../health-reports/2026-10-14-10.md)
 
 ## Failed checks from latest health run
 None recorded.
@@ -193,9 +193,9 @@ None recorded.
 [Read SCHEDULE.md](../SCHEDULE.md)
 
 ### Nova Health
-Source: `2026-10-13-22.md`
+Source: `2026-10-14-21.md`
 
-# Health Report 2026-10-13-22 UTC
+# Health Report 2026-10-14-21 UTC
 
 | URL | Status |
 |-----|--------|
@@ -217,16 +217,16 @@ Source: `2026-10-13-22.md`
 | https://keywebco.github.io/sovereigntools/ | ✅ 200 |
 | https://keywebco.github.io/roger-keyserling/ | ✅ 200 |
 | https://keywebco.github.io/nextxus-ai-minds-lab/ | ✅ 200 |
-| https://roger-sim-api.onrender.com/health | ✅ 200 |
-| https://ring-of-12-api.onrender.com/ | ✅ 200 |
+| https://roger-sim-api.onrender.com/health | ❌ 000 |
+| https://ring-of-12-api.onrender.com/ | ❌ 000 |
 
-Failed: 0 / 20
+Failed: 2 / 20
 
 ### Nova Readability
 Source: `nova-readability-report.md`
 
 # Nova Readability Report
-Date: Wed Oct  7 17:22:51 UTC 2026
+Date: Wed Oct 14 14:59:06 UTC 2026
 
 ## https://nextxus.online
 - HTTP status: 200
