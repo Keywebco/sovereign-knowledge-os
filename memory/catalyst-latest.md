@@ -1,6 +1,6 @@
-# Catalyst Session Memory — 2026-10-24
+# Catalyst Session Memory — 2026-11-05
 
-Last updated: 03:02 UTC
+Last updated: 22:23 UTC
 
 Operational snapshot from committed reports. A missing or old check is not live verification.
 
@@ -9,7 +9,7 @@ Operational snapshot from committed reports. A missing or old check is not live 
 - Sites checked: 20 of 20 in latest health report
 - Sites passing: 20
 - Sites failing: None recorded
-- Health source: `health-reports/2026-10-23-20.md`
+- Health source: `health-reports/2026-11-05-13.md`
 
 ## Open Issues (EC-S002)
 - None recorded in lattice.
@@ -23,15 +23,15 @@ Operational snapshot from committed reports. A missing or old check is not live 
 | nova-health | Not recorded | Not recorded |
 | nova-link | Not recorded | Not recorded |
 | nova-dispatch | Not recorded | Not recorded |
-| nova-domain | 2026-10-23T14:08:39Z | 6 domains checked, 2 failing |
-| nova-readability | 2026-10-21T15:01:18Z | 8 pages checked, 1 failing |
-| nova-commerce | 2026-10-20T13:17:10Z | 21 Gumroad links checked, 0 failing |
+| nova-domain | 2026-11-05T17:13:25Z | 6 domains checked, 2 failing |
+| nova-readability | 2026-11-04T17:55:17Z | 8 pages checked, 1 failing |
+| nova-commerce | 2026-11-03T15:47:11Z | 21 Gumroad links checked, 0 failing |
 
 ## Domains Status (EC-S005)
 Source: `nova-domain-report.md`
 
 # Nova Domain Report
-Date: Fri Oct 23 14:08:34 UTC 2026
+Date: Thu Nov  5 17:13:18 UTC 2026
 
 ## nextxus.online
 - HTTPS status (first hop): 200
@@ -81,7 +81,7 @@ Failed: 2 / 6
 Source: `nova-commerce-report.md`
 
 # Nova Commerce Report
-Date: Tue Oct 20 13:17:05 UTC 2026
+Date: Tue Nov  3 15:47:07 UTC 2026
 
 ## https://keywebster.gumroad.com/l/ahfwii
 - HTTP status: 200
@@ -174,9 +174,9 @@ No directives logged today.
 
 ## Additional Worker Reports
 ### Nova Dispatch
-Source: `2026-10-23-status.md`
+Source: `2026-11-05-status.md`
 
-# Nova Daily Dispatch: 2026-10-23 UTC
+# Nova Daily Dispatch: 2026-11-05 UTC
 
 ## Active scheduled Nova agents
 - Nova-Health
@@ -184,7 +184,7 @@ Source: `2026-10-23-status.md`
 - Nova-Dispatch
 
 ## Latest health report
-[2026-10-23-10.md](../health-reports/2026-10-23-10.md)
+[2026-11-05-13.md](../health-reports/2026-11-05-13.md)
 
 ## Failed checks from latest health run
 None recorded.
@@ -193,9 +193,9 @@ None recorded.
 [Read SCHEDULE.md](../SCHEDULE.md)
 
 ### Nova Health
-Source: `2026-10-23-20.md`
+Source: `2026-11-05-13.md`
 
-# Health Report 2026-10-23-20 UTC
+# Health Report 2026-11-05-13 UTC
 
 | URL | Status |
 |-----|--------|
@@ -226,7 +226,7 @@ Failed: 0 / 20
 Source: `nova-readability-report.md`
 
 # Nova Readability Report
-Date: Wed Oct 21 15:01:14 UTC 2026
+Date: Wed Nov  4 17:55:13 UTC 2026
 
 ## https://nextxus.online
 - HTTP status: 200
