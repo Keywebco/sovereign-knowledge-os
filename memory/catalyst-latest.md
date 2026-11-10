@@ -1,6 +1,6 @@
-# Catalyst Session Memory — 2026-11-09
+# Catalyst Session Memory — 2026-11-10
 
-Last updated: 04:20 UTC
+Last updated: 02:30 UTC
 
 Operational snapshot from committed reports. A missing or old check is not live verification.
 
@@ -9,7 +9,7 @@ Operational snapshot from committed reports. A missing or old check is not live 
 - Sites checked: 20 of 20 in latest health report
 - Sites passing: 20
 - Sites failing: None recorded
-- Health source: `health-reports/2026-11-08-21.md`
+- Health source: `health-reports/2026-11-10-00.md`
 
 ## Open Issues (EC-S002)
 - None recorded in lattice.
@@ -23,7 +23,7 @@ Operational snapshot from committed reports. A missing or old check is not live 
 | nova-health | Not recorded | Not recorded |
 | nova-link | Not recorded | Not recorded |
 | nova-dispatch | Not recorded | Not recorded |
-| nova-domain | 2026-11-08T15:52:12Z | 6 domains checked, 2 failing |
+| nova-domain | 2026-11-09T19:39:20Z | 6 domains checked, 2 failing |
 | nova-readability | 2026-11-04T17:55:17Z | 8 pages checked, 1 failing |
 | nova-commerce | 2026-11-03T15:47:11Z | 21 Gumroad links checked, 0 failing |
 
@@ -31,7 +31,7 @@ Operational snapshot from committed reports. A missing or old check is not live 
 Source: `nova-domain-report.md`
 
 # Nova Domain Report
-Date: Sun Nov  8 15:52:06 UTC 2026
+Date: Mon Nov  9 19:39:15 UTC 2026
 
 ## nextxus.online
 - HTTPS status (first hop): 200
@@ -193,9 +193,9 @@ None recorded.
 [Read SCHEDULE.md](../SCHEDULE.md)
 
 ### Nova Health
-Source: `2026-11-08-21.md`
+Source: `2026-11-10-00.md`
 
-# Health Report 2026-11-08-21 UTC
+# Health Report 2026-11-10-00 UTC
 
 | URL | Status |
 |-----|--------|
