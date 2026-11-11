@@ -1,6 +1,6 @@
 # Catalyst Session Memory — 2026-11-11
 
-Last updated: 15:48 UTC
+Last updated: 22:26 UTC
 
 Operational snapshot from committed reports. A missing or old check is not live verification.
 
@@ -23,15 +23,15 @@ Operational snapshot from committed reports. A missing or old check is not live 
 | nova-health | Not recorded | Not recorded |
 | nova-link | Not recorded | Not recorded |
 | nova-dispatch | Not recorded | Not recorded |
-| nova-domain | 2026-11-10T16:53:53Z | 6 domains checked, 2 failing |
-| nova-readability | 2026-11-04T17:55:17Z | 8 pages checked, 1 failing |
+| nova-domain | 2026-11-11T16:58:38Z | 6 domains checked, 2 failing |
+| nova-readability | 2026-11-11T17:49:59Z | 8 pages checked, 1 failing |
 | nova-commerce | 2026-11-10T16:02:43Z | 21 Gumroad links checked, 0 failing |
 
 ## Domains Status (EC-S005)
 Source: `nova-domain-report.md`
 
 # Nova Domain Report
-Date: Tue Nov 10 16:53:47 UTC 2026
+Date: Wed Nov 11 16:58:31 UTC 2026
 
 ## nextxus.online
 - HTTPS status (first hop): 200
@@ -51,7 +51,7 @@ Date: Tue Nov 10 16:53:47 UTC 2026
 - HTTPS status (first hop): 200
 - HTTPS status after redirects: 200 https://nextxus.tech/
 - HTTP (no SSL) status: 301
-- SSL expiry: Dec 11 13:06:34 2026 GMT
+- SSL expiry: Feb  8 20:34:33 2027 GMT
 - STATUS: OK
 
 ## nextxus.net
@@ -174,9 +174,9 @@ No directives logged today.
 
 ## Additional Worker Reports
 ### Nova Dispatch
-Source: `2026-11-10-status.md`
+Source: `2026-11-11-status.md`
 
-# Nova Daily Dispatch: 2026-11-10 UTC
+# Nova Daily Dispatch: 2026-11-11 UTC
 
 ## Active scheduled Nova agents
 - Nova-Health
@@ -184,7 +184,7 @@ Source: `2026-11-10-status.md`
 - Nova-Dispatch
 
 ## Latest health report
-[2026-11-10-13.md](../health-reports/2026-11-10-13.md)
+[2026-11-11-13.md](../health-reports/2026-11-11-13.md)
 
 ## Failed checks from latest health run
 None recorded.
@@ -226,7 +226,7 @@ Failed: 0 / 20
 Source: `nova-readability-report.md`
 
 # Nova Readability Report
-Date: Wed Nov  4 17:55:13 UTC 2026
+Date: Wed Nov 11 17:49:55 UTC 2026
 
 ## https://nextxus.online
 - HTTP status: 200
