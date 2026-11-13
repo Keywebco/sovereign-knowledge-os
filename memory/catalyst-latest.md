@@ -1,6 +1,6 @@
-# Catalyst Session Memory — 2026-11-12
+# Catalyst Session Memory — 2026-11-13
 
-Last updated: 16:31 UTC
+Last updated: 00:51 UTC
 
 Operational snapshot from committed reports. A missing or old check is not live verification.
 
@@ -9,7 +9,7 @@ Operational snapshot from committed reports. A missing or old check is not live 
 - Sites checked: 20 of 20 in latest health report
 - Sites passing: 20
 - Sites failing: None recorded
-- Health source: `health-reports/2026-11-12-14.md`
+- Health source: `health-reports/2026-11-12-22.md`
 
 ## Open Issues (EC-S002)
 - None recorded in lattice.
@@ -23,7 +23,7 @@ Operational snapshot from committed reports. A missing or old check is not live 
 | nova-health | Not recorded | Not recorded |
 | nova-link | Not recorded | Not recorded |
 | nova-dispatch | Not recorded | Not recorded |
-| nova-domain | 2026-11-11T16:58:38Z | 6 domains checked, 2 failing |
+| nova-domain | 2026-11-12T17:27:34Z | 6 domains checked, 2 failing |
 | nova-readability | 2026-11-11T17:49:59Z | 8 pages checked, 1 failing |
 | nova-commerce | 2026-11-10T16:02:43Z | 21 Gumroad links checked, 0 failing |
 
@@ -31,13 +31,13 @@ Operational snapshot from committed reports. A missing or old check is not live 
 Source: `nova-domain-report.md`
 
 # Nova Domain Report
-Date: Wed Nov 11 16:58:31 UTC 2026
+Date: Thu Nov 12 17:27:27 UTC 2026
 
 ## nextxus.online
 - HTTPS status (first hop): 200
 - HTTPS status after redirects: 200 https://nextxus.online/
 - HTTP (no SSL) status: 301
-- SSL expiry: Dec 13 04:55:29 2026 GMT
+- SSL expiry: Feb 10 11:18:14 2027 GMT
 - STATUS: OK
 
 ## nextxus.org
@@ -174,9 +174,9 @@ No directives logged today.
 
 ## Additional Worker Reports
 ### Nova Dispatch
-Source: `2026-11-11-status.md`
+Source: `2026-11-12-status.md`
 
-# Nova Daily Dispatch: 2026-11-11 UTC
+# Nova Daily Dispatch: 2026-11-12 UTC
 
 ## Active scheduled Nova agents
 - Nova-Health
@@ -184,7 +184,7 @@ Source: `2026-11-11-status.md`
 - Nova-Dispatch
 
 ## Latest health report
-[2026-11-11-13.md](../health-reports/2026-11-11-13.md)
+[2026-11-12-14.md](../health-reports/2026-11-12-14.md)
 
 ## Failed checks from latest health run
 None recorded.
@@ -193,9 +193,9 @@ None recorded.
 [Read SCHEDULE.md](../SCHEDULE.md)
 
 ### Nova Health
-Source: `2026-11-12-14.md`
+Source: `2026-11-12-22.md`
 
-# Health Report 2026-11-12-14 UTC
+# Health Report 2026-11-12-22 UTC
 
 | URL | Status |
 |-----|--------|
