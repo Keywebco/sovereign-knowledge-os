@@ -1,6 +1,6 @@
 # Catalyst Session Memory — 2026-11-14
 
-Last updated: 11:10 UTC
+Last updated: 17:36 UTC
 
 Operational snapshot from committed reports. A missing or old check is not live verification.
 
@@ -9,7 +9,7 @@ Operational snapshot from committed reports. A missing or old check is not live 
 - Sites checked: 20 of 20 in latest health report
 - Sites passing: 20
 - Sites failing: None recorded
-- Health source: `health-reports/2026-11-13-23.md`
+- Health source: `health-reports/2026-11-14-12.md`
 
 ## Open Issues (EC-S002)
 - None recorded in lattice.
@@ -23,7 +23,7 @@ Operational snapshot from committed reports. A missing or old check is not live 
 | nova-health | Not recorded | Not recorded |
 | nova-link | Not recorded | Not recorded |
 | nova-dispatch | Not recorded | Not recorded |
-| nova-domain | 2026-11-13T17:02:00Z | 6 domains checked, 2 failing |
+| nova-domain | 2026-11-14T15:40:07Z | 6 domains checked, 2 failing |
 | nova-readability | 2026-11-11T17:49:59Z | 8 pages checked, 1 failing |
 | nova-commerce | 2026-11-10T16:02:43Z | 21 Gumroad links checked, 0 failing |
 
@@ -31,7 +31,7 @@ Operational snapshot from committed reports. A missing or old check is not live 
 Source: `nova-domain-report.md`
 
 # Nova Domain Report
-Date: Fri Nov 13 17:01:56 UTC 2026
+Date: Sat Nov 14 15:40:03 UTC 2026
 
 ## nextxus.online
 - HTTPS status (first hop): 200
@@ -174,9 +174,9 @@ No directives logged today.
 
 ## Additional Worker Reports
 ### Nova Dispatch
-Source: `2026-11-13-status.md`
+Source: `2026-11-14-status.md`
 
-# Nova Daily Dispatch: 2026-11-13 UTC
+# Nova Daily Dispatch: 2026-11-14 UTC
 
 ## Active scheduled Nova agents
 - Nova-Health
@@ -184,7 +184,7 @@ Source: `2026-11-13-status.md`
 - Nova-Dispatch
 
 ## Latest health report
-[2026-11-13-13.md](../health-reports/2026-11-13-13.md)
+[2026-11-14-12.md](../health-reports/2026-11-14-12.md)
 
 ## Failed checks from latest health run
 None recorded.
@@ -193,9 +193,9 @@ None recorded.
 [Read SCHEDULE.md](../SCHEDULE.md)
 
 ### Nova Health
-Source: `2026-11-13-23.md`
+Source: `2026-11-14-12.md`
 
-# Health Report 2026-11-13-23 UTC
+# Health Report 2026-11-14-12 UTC
 
 | URL | Status |
 |-----|--------|
