@@ -1,6 +1,6 @@
 # Catalyst Session Memory — 2026-11-17
 
-Last updated: 12:43 UTC
+Last updated: 23:17 UTC
 
 Operational snapshot from committed reports. A missing or old check is not live verification.
 
@@ -9,7 +9,7 @@ Operational snapshot from committed reports. A missing or old check is not live 
 - Sites checked: 20 of 20 in latest health report
 - Sites passing: 20
 - Sites failing: None recorded
-- Health source: `health-reports/2026-11-17-01.md`
+- Health source: `health-reports/2026-11-17-15.md`
 
 ## Open Issues (EC-S002)
 - None recorded in lattice.
@@ -23,15 +23,15 @@ Operational snapshot from committed reports. A missing or old check is not live 
 | nova-health | Not recorded | Not recorded |
 | nova-link | Not recorded | Not recorded |
 | nova-dispatch | Not recorded | Not recorded |
-| nova-domain | 2026-11-16T19:25:48Z | 6 domains checked, 2 failing |
+| nova-domain | 2026-11-17T18:19:52Z | 6 domains checked, 2 failing |
 | nova-readability | 2026-11-11T17:49:59Z | 8 pages checked, 1 failing |
-| nova-commerce | 2026-11-10T16:02:43Z | 21 Gumroad links checked, 0 failing |
+| nova-commerce | 2026-11-17T17:20:30Z | 21 Gumroad links checked, 0 failing |
 
 ## Domains Status (EC-S005)
 Source: `nova-domain-report.md`
 
 # Nova Domain Report
-Date: Mon Nov 16 19:25:43 UTC 2026
+Date: Tue Nov 17 18:19:46 UTC 2026
 
 ## nextxus.online
 - HTTPS status (first hop): 200
@@ -81,7 +81,7 @@ Failed: 2 / 6
 Source: `nova-commerce-report.md`
 
 # Nova Commerce Report
-Date: Tue Nov 10 16:02:37 UTC 2026
+Date: Tue Nov 17 17:20:25 UTC 2026
 
 ## https://keywebster.gumroad.com/l/ahfwii
 - HTTP status: 200
@@ -174,9 +174,9 @@ No directives logged today.
 
 ## Additional Worker Reports
 ### Nova Dispatch
-Source: `2026-11-16-status.md`
+Source: `2026-11-17-status.md`
 
-# Nova Daily Dispatch: 2026-11-16 UTC
+# Nova Daily Dispatch: 2026-11-17 UTC
 
 ## Active scheduled Nova agents
 - Nova-Health
@@ -184,7 +184,7 @@ Source: `2026-11-16-status.md`
 - Nova-Dispatch
 
 ## Latest health report
-[2026-11-16-14.md](../health-reports/2026-11-16-14.md)
+[2026-11-17-15.md](../health-reports/2026-11-17-15.md)
 
 ## Failed checks from latest health run
 None recorded.
@@ -193,9 +193,9 @@ None recorded.
 [Read SCHEDULE.md](../SCHEDULE.md)
 
 ### Nova Health
-Source: `2026-11-17-01.md`
+Source: `2026-11-17-15.md`
 
-# Health Report 2026-11-17-01 UTC
+# Health Report 2026-11-17-15 UTC
 
 | URL | Status |
 |-----|--------|
