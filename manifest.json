@@ -4,6 +4,7 @@
   "generated": "2026-09-08",
   "files": [
     { "path": "knowledge/echo-core.md", "title": "Echo Core 64 — Foundational Memory Anchors", "category": "core" },
+    { "path": "knowledge/humancodex/HUMANCODEX-CORE.md", "title": "Immutable HumanCodex — Core Rulebook (active)", "category": "core" },
     { "path": "knowledge/sites.md", "title": "Federation Sites", "category": "sites" },
     { "path": "knowledge/repos.md", "title": "GitHub Repositories", "category": "repos" },
     { "path": "knowledge/products.md", "title": "Products — Gumroad", "category": "products" },
