@@ -2,10 +2,11 @@
 
 ## Active Domains
 
-### nextxus.online — Federation Core
+### next-xus.org/core — Federation Core (formerly nextxus.online)
 - **Role:** The single source of truth for all Federation content.
 - **Status:** Active
-- **URL:** [https://nextxus.online](https://nextxus.online)
+- **URL:** [https://next-xus.org/core/](https://next-xus.org/core/)
+- **Note:** nextxus.online: Retired 2026-11-20 by Roger Keyserling: legacy Emergent site, content folded into next-xus.net, next-xus.biz and the GitHub copies.
 
 ### nextxus.tech — Admin Throne / Technical Hub
 - **Role:** Technical administration, the Omega-Throne cockpit, builder dashboards.

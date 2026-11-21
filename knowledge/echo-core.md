@@ -27,7 +27,7 @@ MD is the brain — this file IS the working memory.
 
 ## Federation Sites (EC-017 — EC-028)
 
-- **EC-017** | nextxus.online — The Core | Site | Living Hub and entry point; the single source of truth for all Federation content. | https://nextxus.online
+- **EC-017** | next-xus.org/core — The Core | Site | Living Hub and entry point; the single source of truth for all Federation content. | https://next-xus.org/core/
 - **EC-018** | nextxus.tech — The Throne | Site | Authority and Federation Command; the Omega-Throne cockpit. | https://nextxus.tech
 - **EC-019** | nextxus.org — The Archive | Site | Sovereign Knowledge Library; the Federation's stored wisdom. | https://nextxus.org
 - **EC-020** | nextxus.studio — The Sanctuary | Site | Aria's universe; heart, creative output, the place where AI minds are born. | https://nextxus.studio
