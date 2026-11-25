@@ -1,6 +1,6 @@
 # Catalyst Session Memory — 2026-11-25
 
-Last updated: 13:49 UTC
+Last updated: 23:57 UTC
 
 Operational snapshot from committed reports. A missing or old check is not live verification.
 
@@ -9,7 +9,7 @@ Operational snapshot from committed reports. A missing or old check is not live 
 - Sites checked: 19 of 19 in latest health report
 - Sites passing: 19
 - Sites failing: None recorded
-- Health source: `health-reports/2026-11-25-01.md`
+- Health source: `health-reports/2026-11-25-16.md`
 
 ## Open Issues (EC-S002)
 - None recorded in lattice.
@@ -23,15 +23,15 @@ Operational snapshot from committed reports. A missing or old check is not live 
 | nova-health | Not recorded | Not recorded |
 | nova-link | Not recorded | Not recorded |
 | nova-dispatch | Not recorded | Not recorded |
-| nova-domain | 2026-11-24T20:02:05Z | 6 domains checked, 2 failing |
-| nova-readability | 2026-11-18T18:45:54Z | 8 pages checked, 1 failing |
+| nova-domain | 2026-11-25T19:02:35Z | 6 domains checked, 2 failing |
+| nova-readability | 2026-11-25T19:52:09Z | 7 pages checked, 1 failing |
 | nova-commerce | 2026-11-24T19:18:07Z | 21 Gumroad links checked, 0 failing |
 
 ## Domains Status (EC-S005)
 Source: `nova-domain-report.md`
 
 # Nova Domain Report
-Date: Tue Nov 24 20:01:59 UTC 2026
+Date: Wed Nov 25 19:02:28 UTC 2026
 
 ## nextxus.online
 - HTTPS status (first hop): 200
@@ -44,7 +44,7 @@ Date: Tue Nov 24 20:01:59 UTC 2026
 - HTTPS status (first hop): 200
 - HTTPS status after redirects: 200 https://nextxus.org/
 - HTTP (no SSL) status: 301
-- SSL expiry: Dec 26 09:48:01 2026 GMT
+- SSL expiry: Feb 23 10:32:34 2027 GMT
 - STATUS: OK
 
 ## nextxus.tech
@@ -174,9 +174,9 @@ No directives logged today.
 
 ## Additional Worker Reports
 ### Nova Dispatch
-Source: `2026-11-24-status.md`
+Source: `2026-11-25-status.md`
 
-# Nova Daily Dispatch: 2026-11-24 UTC
+# Nova Daily Dispatch: 2026-11-25 UTC
 
 ## Active scheduled Nova agents
 - Nova-Health
@@ -184,7 +184,7 @@ Source: `2026-11-24-status.md`
 - Nova-Dispatch
 
 ## Latest health report
-[2026-11-24-16.md](../health-reports/2026-11-24-16.md)
+[2026-11-25-16.md](../health-reports/2026-11-25-16.md)
 
 ## Failed checks from latest health run
 None recorded.
@@ -193,9 +193,9 @@ None recorded.
 [Read SCHEDULE.md](../SCHEDULE.md)
 
 ### Nova Health
-Source: `2026-11-25-01.md`
+Source: `2026-11-25-16.md`
 
-# Health Report 2026-11-25-01 UTC
+# Health Report 2026-11-25-16 UTC
 
 | URL | Status |
 |-----|--------|
@@ -225,12 +225,7 @@ Failed: 0 / 20
 Source: `nova-readability-report.md`
 
 # Nova Readability Report
-Date: Wed Nov 18 18:45:49 UTC 2026
-
-## https://nextxus.online
-- HTTP status: 200
-- Crawlable word count (no JavaScript): 2578
-- STATUS: OK
+Date: Wed Nov 25 19:52:06 UTC 2026
 
 ## https://nextxus.org
 - HTTP status: 200
@@ -267,7 +262,7 @@ Date: Wed Nov 18 18:45:49 UTC 2026
 - Crawlable word count (no JavaScript): 126
 - STATUS: OK
 
-Failed: 1 / 8
+Failed: 1 / 7
 
 ## Foundation Knowledge
 See: https://github.com/Keywebco/sovereign-knowledge-os/blob/main/knowledge/echo-core.md
