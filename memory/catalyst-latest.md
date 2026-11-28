@@ -1,6 +1,6 @@
-# Catalyst Session Memory — 2026-11-27
+# Catalyst Session Memory — 2026-11-28
 
-Last updated: 23:52 UTC
+Last updated: 06:01 UTC
 
 Operational snapshot from committed reports. A missing or old check is not live verification.
 
@@ -9,7 +9,7 @@ Operational snapshot from committed reports. A missing or old check is not live 
 - Sites checked: 19 of 19 in latest health report
 - Sites passing: 19
 - Sites failing: None recorded
-- Health source: `health-reports/2026-11-27-15.md`
+- Health source: `health-reports/2026-11-28-00.md`
 
 ## Open Issues (EC-S002)
 - None recorded in lattice.
@@ -193,9 +193,9 @@ None recorded.
 [Read SCHEDULE.md](../SCHEDULE.md)
 
 ### Nova Health
-Source: `2026-11-27-15.md`
+Source: `2026-11-28-00.md`
 
-# Health Report 2026-11-27-15 UTC
+# Health Report 2026-11-28-00 UTC
 
 | URL | Status |
 |-----|--------|
